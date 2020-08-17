@@ -132,23 +132,19 @@ img {
   color: var(--white-color);
   cursor: pointer;
 }
-.home__parallax-img1 {
-  background-image: url("/imgm1.png");
+.home__parallax-img1 img{
   z-index: var(--z-normal);
 }
 
-.home__parallax-img2 {
-  background-image: url("/imgm2.png");
+.home__parallax-img2 img{
   z-index: var(--z-tooltip);
 }
 
-.home__parallax-img3 {
-  background-image: url("/imgm3.png");
+.home__parallax-img3 img{
   z-index: var(--z-fixed);
 }
 
-.home__parallax-img4 {
-  background-image: url("/imgm4.png");
+.home__parallax-img4 img{
   z-index: var(--z-fixed);
 }
 
