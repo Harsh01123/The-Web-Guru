@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mb-30{
+  margin: 35px;
+}
+.pb-35{
+  padding-bottom: 35px;
+}
+.mt-35{
+margin-top: 25px;  
+}
+/***section css***/
+.section_title{
+  position: relative;
+  margin-bottom: 70px;
+  width: 100%;
+}
+.a{
+  background-color: #1957f3;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 12px;
+  letter-spacing: 1px;
+}
+h3{
+  position: relative;
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 1.14;
+  letter-spacing: 1.3px;
+  padding-bottom: 3px;
+}
+h3:after{
+  content: '';
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 2px;
+  bottom: 30px;
+  left: 50%;
+  background-color: #1957f3;
+}
+/***buttons css***/
+.btn{
+background-color:#1957f3;
+border: 2px solid #1957f3;
+padding: 15px 20px;
+box-shadow: inset 000#fff;
+letter-spacing: 1px;
+border-radius: 0;
+color: #fff;
+font-size: 14px;
+transition: 0.6 all;
+}
+.btn:hover{
+  box-shadow: inset 000#fff;
+  background-color: #13ffff;
+}
+.active{
+  color: #13ffff;
+  background-color: #000;
+}
+/***about section css***/
+h4{
+  font-size: 24px;
+}
+.p{
+  border-bottom: 1px solid #f1f1f1;
+}
+.li{
+width: 48%;
+display: inline-block;
+margin-bottom: 15px;
+}
+.part_text{
+  left: 50%;
+}
+.part_photo{
+ position: absolute;
+ left: 70%;
+ height: 40%;
+ width: 50%;
+}
+
+  
+.button{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+.button:hover{
+	background-color: #000;
+	color: #13ffff;
+	text-decoration: none;
+}
+.button .active {
+  background-color: #000;
+	color:#13ffff;
+	text-decoration: none;
+}

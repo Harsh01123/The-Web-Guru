@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear gradient(rgba(0,0,50,0.5)rgba(0,0,50,0.5),url('../a.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Sans-Serif;
+}
+.contect-title{
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 4s all ;
+}
+.contect-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
+.contect-title h2{
+ font-size: 16px; 
+}
+
+@media screen and (max-width: 768px) {
+  .logo{
+    max-width: 6rem;
+  }
+  .loder{
+    max-height: 4rem;
+    max-width: 4rem;
+position: absolute;
+    left: -6rem; 
+  }
+.loder-inner-1,
+.loder-inner-2,
+.loder-inner-3,
+.loder-inner-4{
+    max-width: 1rem;
+    max-height: 1rem;
+    
+  }
+
+@keyframes loading-1{
+	0%{
+	  max-height: 12px;
+		width: 20px;
+		right:0;
+	}
+	30%{
+max-height: 12px;
+		width: 50px;
+		right:-50;
+	}
+	60%{
+max-height: 12px;
+	  width: 20px;
+		right: -50px;
+	}
+}
+
+}
+
+

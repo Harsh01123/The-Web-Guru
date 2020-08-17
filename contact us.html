@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>The web Guru</title>
+<script src="https://smtpjs.com/v3/smtp.js"> </script>
+<link rel="shortcut icon" href="logo.ico">
+<link rel="stylesheet" type="text/css" href="css/c.css">
+  </head>
+  <body>
+    <div class="contect-title">
+      <h1>Welcome</h1>
+      <h2>we are alwase ready to serve you</h2>
+    </div>
+ 	<div class="login_container">
+	  <div class="login_box">
+	    <h2>login</h2>
+	    <div class="contact-form">
+	    <form id="contact-form" method="post">
+	      
+	        <input type="text" class="form-control"name="name" id="name"required="" />
+	        <label> Name</label>
+	        <input type="text"id="email"name="email" class="form-control"required="" />
+	        <label>email</label>
+	  
+	      <textarea name="message" rows="4" class="form-control"></textarea>
+    <button type="submit" onclick="s()"class="a"type=" submit">submit</button>
+	    </form>
+	  <script type="text/javascript" charset="utf-8">
+	  function s(){
+var u= document.getElementById("username");
+var e= document.getElementById("email");
+var m= document.getElementById("message");
+
+Email.send({
+  Host : "smtp.yourisp.com",
+  Username : "u",
+  password: "e",
+  To : 'harshborana2007@gmail.com', 
+  From : "The Web Guru", 
+  Subject : "This is the subject", 
+  Body : "m";
+  
+}).then(
+  alert(Your Message Has Been Sent)
+  );
+	  }
+	  </script>
+	</div>
+      </form>
+    </div>
+  </body>
+</html>

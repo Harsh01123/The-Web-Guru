@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Web Guru</title>
+	<link rel="stylesheet" type="text/css" href="css/sd.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="shortcut icon" href="logo.ico">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header id="ww"style="display:block;">
+	<div class="login_container">
+	  <div class="login_box">
+	    <h2>login</h2>
+	    <form>
+	      <div class="user_box">
+	        <input type="text" id="username" name="userid" required="" />
+	        <label>User Name</label>
+	      </div>
+	      <div class="user_box">
+	        <input type="password" id="pwd" name="password" required="" />
+	        <label>Password</label>
+	      </div>
+	      <button type="submit" class="a" onclick="return check(this.form)" id="ok"type="submit">submit</button>
+	    </form>
+	  </div>
+	</div>
+
+	    </header>
+	    <div id="v"style="display:none">
+   <div class="main">
+     <div>
+       <img class="logo"src="logo.png" alt="" />
+     </div>
+   </div>
+<div>
+		<ul>
+			<li class="active"><a href="#">secret</a></li>
+		<li><a href="About.html">About Me</a></li>
+		<li><a href="index.HTML">home</a></li>
+		</ul>
+	    </div>
+	    <div class="title">
+	<h1>The Web Guru</h1>
+	</div>
+        <div class="a social_icon mt-20 text-center">
+          <a href="#"> <span><i class="fa fa-facebook"></i></i></span></a>
+          <a href="#"><span><i class="fa fa-twitter"></i></i></span></a>
+          <a href="#"> <span><i class="fa fa-whatsaap"></i></i></span></a>
+          <a href="#"> <span><i class="fa fa-linkedin"></i></i></span></a>
+          <a href="#"> <span><i class="fa fa-instagram"></i></i></span></a>
+          <a href="#"> <span><i class="fa fa-youtube"></i></i></span></a>
+        </div>
+      </div>
+	    </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+	       <script>
+ 
+//secreate
+
+
+
+
+function check(form){
+   if(form.userid.value == "Harsh" && form.pwd.value == "Harsh.1123")
+{
+ var x = document.getElementById("v");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+ var y = document.getElementById("ww");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+	          
+const Toast = Swal.mixin({
+  toast: true,
+  position: 'top-end',
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  onOpen: (toast) => {
+    toast.addEventListener('mouseenter', Swal.stopTimer)
+    toast.addEventListener('mouseleave', Swal.resumeTimer)
+  }
+})
+
+Toast.fire({
+  icon: 'success',
+  title: '<small>welcome web guru</small><br>You Have Signed in successfully'
+})
+return false;
+}
+else
+{
+	alert("uaername or password is incorrect")
+	
+}
+} 
+</script>
+</body>
+</html>
+
+
+
