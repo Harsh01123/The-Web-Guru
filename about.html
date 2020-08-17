@@ -37,8 +37,8 @@
                 <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"><img src="imgm3.png"></div>
                 <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"><img src="imgm4.png"></div>
 
-                <h1 class="parallax home__title" data-rellax-speed="-6"><img src="l.png" alt="" /></h1>
-                <span class="parallax home__subtitle" data-rellax-speed="-5">The Web Guru</span> 
+                <h1 class="parallax home__title" id="home__title" data-rellax-speed="-6"><img  src="l.png" alt="" /></h1>
+                <span class="parallax home__subtitle" id="home__subtitle" data-rellax-speed="-5">The Web Guru</span> 
 
                 <div class="home__scroll">
                    <a href="#section"><i class='bx bx-mouse'></i></a>
@@ -101,3 +101,20 @@ I have five months Exprince</p>
     </body>
 </html>
 
+.home{
+  max-height: 230px;
+  position: relative;
+}
+  #home__title img{
+     max-width: 4rem; position: absolute; top: 5rem;
+  }
+  #home__subtitle {
+    position: absolute; top: 8.5rem;
+  }
+
+    #home__title img{
+     max-width: 4rem; position: absolute; top: -7rem;
+  }
+  #home__subtitle {
+    position: absolute; top: 8.5rem;
+  }

@@ -34,6 +34,9 @@
   --z-modal: 1000;
 }
 
+  body{
+    background-color: #000;
+  }
 /*===== BASE =====*/
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
@@ -270,6 +273,7 @@ img {
     position: absolute;
     left: 40%;
   }
+
     .a{
       margin: 5px 5px;
     }
@@ -425,4 +429,19 @@ margin-bottom: 15px;
   background-color: #000;
   color:#13ffff;
   text-decoration: none;
+}
+
+
+@media screen and (max-width: 480px){
+  .home{
+  max-height: 230px;
+  position: relative;
+}
+  #home__title img{
+     max-width: 4rem; position: absolute; top: 3rem;
+  }
+  #home__subtitle {
+    position: absolute; top: 8.5rem;
+  }
+
 }
