@@ -1,0 +1,165 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+body{
+background-image: url('../a.jpg');
+background-attachment:; fixed;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.rectrangle{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+width: 898px;
+height: 285px;
+
+background: rgba(255, 255, 255, 0.45);
+border-radius: 96px;
+z-index: 1;
+}
+
+.img{
+	position: absolute;
+width: 225px;
+height: 225px;
+left: 20%;
+top: 50%;
+
+transform: translateY(-50%);
+background: url(../download.jpg);
+border-radius: 112.5px;
+z-index: 2;
+}
+.txt{
+	position: absolute;
+width: 928px;
+height: 91px;
+left: 10%;
+top: 20%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+
+color: #13FFFF;
+}
+.tx{
+	position: absolute;
+width: 480px;
+height: 72px;
+left: 45%;
+top: 41%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+
+color: #FFFFFF;
+
+}
+.t{
+	position: absolute;
+width: 422px;
+height: 74px;
+left: 50%;
+top: 50%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+}
+.ico{
+	position: absolute;
+	left: 68%;
+	top: 60%;
+	color: #fff;
+	width: 10px;
+		z-index: 3;
+}
+.ico:hover {
+	color: #13ffff;
+
+}
+.logo{
+	float: top left;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+@media screen and (max-width: 768px) {
+  .logo{
+    
+position: absolute;
+width: 188px;
+height: 181px;
+left: 0px;
+top: -2px;
+
+  }
+  .rectrangle{
+  	width: 50vh;
+height: 20vh;
+
+  }
+  .img{
+
+position: absolute;
+width: 95px;
+height: 95px;
+left: 20%;
+top: 50%;
+
+ }
+  .txt{
+  position: absolute;
+width: 345px;
+height: 93px;
+left: 14px;
+top: 132px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+
+color: #13FFFF;
+
+  }
+  .tx{
+  	position: absolute;
+width: 480px;
+height: 72px;
+left: 50%;
+top: 45%;
+
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+  }
+  .ico{
+  	top :55%;
+  }
+  }
