@@ -4,10 +4,10 @@ margin: 0;
 box-sizing:border-box;
 }
 body{
-background-image: url('../a.jpg');
-background-attachment:; fixed;
+background:url(../black-linen.png), #494545;
+background-attachment: fixed;
 background-size: cover;
-background-repeat: no-repeat;
+background-repeat:repeat;
 height: 100vh;
 width: 100vw;
 display: flex;
@@ -33,11 +33,33 @@ width: 225px;
 height: 225px;
 left: 20%;
 top: 50%;
-
 transform: translateY(-50%);
 background: url(../download.jpg);
 border-radius: 112.5px;
 z-index: 2;
+}
+.imgm{
+	position: absolute;
+	width: 225px;
+	height: 225px;
+	left: 0%;
+	top: 50%;
+	transform: translate(-190%,-50%);
+	background: url(../roblox.png);
+	border-radius: 112.5px;
+	z-index: 2;
+
+}
+.imgmm{
+	position: absolute;
+	width:  300px;
+	height: 300px;
+
+	transform: translate(-190%,-50%);
+	background: url(../youtube-music-logo-50422973B2-seeklogo.com.png);
+	
+	z-index: 2;
+
 }
 .txt{
 	position: absolute;
@@ -86,10 +108,46 @@ line-height: 16px;
 color: #FFFFFF;
 
 }
+.txx{
+	position: absolute;
+width: 480px;
+height: 72px;
+transform: translate(-20%,-90%);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+
+color: #FFFFFF;
+
+}
+.tm{
+	position: absolute;
+width: 422px;
+height: 74px;
+transform: translate();
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+}
 .ico{
 	position: absolute;
 	left: 68%;
 	top: 60%;
+	color: #fff;
+	width: 10px;
+		z-index: 3;
+}
+.div3 .ico{
+	transform: translate(2500%,500%);
 	color: #fff;
 	width: 10px;
 		z-index: 3;
@@ -106,6 +164,20 @@ color: #FFFFFF;
 	top: 0%;
 	left: 0%;
 }
+div{
+	display: flex;
+	flex-direction: column;
+}
+.div2 .txx {
+	transform: translate(-20%,-90%);
+	width: 900px;
+}.div2 .ico{
+	transform: translate(2500%,500%);
+	color: #fff;
+	width: 10px;
+		z-index: 3;
+}
+
 @media screen and (max-width: 768px) {
   .logo{
     
@@ -124,12 +196,20 @@ height: 20vh;
   .img{
 
 position: absolute;
-width: 95px;
-height: 95px;
-left: 20%;
+scale: .5;
+left: 10%;
 top: 50%;
-
+transform: translate(-20%,-100%);
  }
+ .imgm{
+
+	position: absolute;
+	scale: .5;
+	right: 100;
+	top: 40%;
+	transform: translate(-180%,-100%);
+	
+	 }
   .txt{
   position: absolute;
 width: 345px;
@@ -159,7 +239,46 @@ line-height: 28px;
 color: #FFFFFF;
 
   }
-  .ico{
-  	top :55%;
-  }
+
+	.txx{
+		position: absolute;
+  width: 480px;
+  height: 72px;
+  left: 50%;
+  top: 45%;
+  
+  font-size: 24px;
+  line-height: 28px;
+  transform: translateY(-30px);
+  color: #FFFFFF;
+  
+	}
+	.tm {
+		position: absolute;
+		width: auto;
+		left: -50%;
+		top: -50%;
+		color: #fff;
+		width: 12rem;
+		font-size: .8rem;
+	}
+	.ico{
+		position: absolute;
+		left: 68%;
+		top: 55%;
+		color: #fff;
+		width: 10px;
+			z-index: 3;
+	}
+
+  .div2 .txx {
+	transform: translate(-20%,-90%);
+	width: 900px;
+}.div2 .immm{
+	margin-left:4rem ;
+	color: #fff;
+	width: 10px;
+		z-index: 3;
+}
+
   }
