@@ -177,6 +177,12 @@ div{
 	width: 10px;
 		z-index: 3;
 }
+.div2 .ic:hover{
+	transform: translate(2500%,500%);
+	color: #13ffff;
+	width: 10px;
+		z-index: 3;
+}
 
 @media screen and (max-width: 768px) {
   .logo{
