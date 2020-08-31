@@ -76,6 +76,22 @@ line-height: 75px;
 
 color: #13FFFF;
 }
+.float{
+	position: fixed;
+	bottom: 0;
+opacity: 0.6;
+}
+.av::selection{
+	color: #fff;
+	background-color: transparent;
+}
+.av{
+	font-size: 64px;
+    line-height: 75px;
+    color: #13FFFF;
+    position: sticky;
+    bottom: -1px;
+}
 .tx{
 	position: absolute;
 width: 480px;
@@ -286,5 +302,15 @@ color: #FFFFFF;
 	width: 10px;
 		z-index: 3;
 }
+.tx{
+	position: absolute;
+width: 480px;
+height: 72px;
+transform: translate(55%,55%);
+font-size: 24px;
+line-height: 28px;
 
+color: #FFFFFF;
+
+}
   }
